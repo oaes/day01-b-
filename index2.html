@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic form</title>
+        <style>
+            body{
+                background-color: lime;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple form</h1>
+        <!-- form -->
+        <form action="process.php" method="POST">
+            <div>
+            <label>First Name</label>
+            <input type="text" name="firstName">
+            </div>
+            <br>
+            <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName">
+            </div>
+            <br>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email">
+                </div>
+                <br>
+                    <div>
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <br>
+                        <div>
+                            <label>Gender</label>
+                            <select name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="other">Other</option>
+                            </select>
+                        </div>
+                            <div>
+                                <label>Age</label>
+                                <input type="number" name="age" value="50">
+                            </div>
+                            <br>
+                                <div>
+                                    <label>Birthday</label>
+                                    <input type="date" name="birthday">
+                                </div>
+                                <br>
+                                    <div>
+                                        <input type="submit" name="submit" value="submit">
+                                    </div>
+</form>
+    <div style="margin-top:500px"></div>
+    </body>
+
+</html>
